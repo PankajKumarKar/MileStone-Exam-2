@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>PW Skills Blog</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <h1>Pw Skills Blogs</h1>
+      <button id="open-modal-btn">+</button>
+    </header>
+
+    <!--Blog Lists-->
+
+    <section class="blogList"></section>
+
+    <!--Add Blog Model-->
+
+    <div id="modal-container" class="modal">
+      <div class="modal-content">
+        <span id="close-modal-btn" class="close-btn">&times;</span>
+        <h2>Add Blog</h2>
+
+        <form id="blogForm">
+          <input
+            type="text"
+            id="blogImageUrl"
+            placeholder="Enter Blog Image Url"
+            required
+          />
+
+          <input
+            type="text"
+            id="blogTitle"
+            placeholder="Enter Blog Title"
+            required
+          />
+
+          <input
+            type="text"
+            id="blogDescription"
+            placeholder="Enter Blog Description"
+            required
+          />
+
+          <textarea
+            id="blogContent"
+            placeholder="Write Blog"
+            rows="10"
+            required
+          ></textarea>
+
+          <button type="submit">Add Blog</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.Todo {
+  width: 100vw;
+  margin-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3rem;
+}
+.Todo h1 {
+  font-size: 2.7rem;
+}
+.Todo input {
+  padding: 0.6rem 2rem;
+  font-size: 1.2rem;
+}
+.Todo button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.Todo input::placeholder {
+  color: #497519;
+}
+.Todo input:focus {
+  outline: #eeaeca;
+}
+.Todo button:hover {
+  background-color: #497519;
+  cursor: pointer;
+  opacity: 1;
+  color: #ffffff;
+}
+.list {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.7rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
